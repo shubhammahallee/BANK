@@ -10,7 +10,7 @@ class BankAccount:
         self.ifsc_code    = user_data[4]
         self.mobile       = user_data[5]
         self.__balance    = user_data[8]
-        self.credit_count = user_data[9]
+        self.credit_count = user_data[9] 
         self.debit_count  = user_data[10]
 
     def __save(self):
