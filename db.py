@@ -25,7 +25,7 @@ def init_db():
             debit_count   INTEGER DEFAULT 0
         )
     ''')
-    c.execute("SELECT COUNT(*) FROM users")
+    c.execute("SELECT COUNT(*) FROM users") 
     if c.fetchone()[0] == 0:
         sample_users = [
             ("Shubham Raut", "8631361646", "Pune",   "SBIN000523", "9876543210", "shubham", "pass1", 5000),
