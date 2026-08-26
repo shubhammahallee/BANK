@@ -28,7 +28,7 @@ class BankAccount:
         print("          ACCOUNT DETAILS")
         print("=" * 40)
         print(f"  Account Holder : {self.name}")
-        print(f"  Account Number : {self.acc_num}")
+        print(f"  Account Number : {self.acc_num}") 
         print(f"  Branch         : {self.branch}")
         print(f"  IFSC Code      : {self.ifsc_code}")
         print(f"  Mobile         : +91-XXXXXX{str(self.mobile)[-4:]}")
