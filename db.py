@@ -30,7 +30,7 @@ def init_db():
         sample_users = [
             ("Shubham Raut", "8631361646", "Pune",   "SBIN000523", "9876543210", "shubham", "pass1", 5000),
             ("Rahul Sharma", "9876543210", "Mumbai", "HDFC000123", "9123456780", "rahul",   "pass2", 12000),
-            ("Priya Mehta",  "1122334455", "Delhi",  "ICIC000789", "9988776655", "priya",   "pass3", 8500),
+            ("Priya Mehta",  "1122334455", "Delhi",  "ICIC000789", "9988776655", "priya",   "pass3", 8500), 
         ]
         c.executemany(
             "INSERT INTO users (name,acc_num,branch,ifsc_code,mobile,username,password,balance) VALUES (?,?,?,?,?,?,?,?)",
