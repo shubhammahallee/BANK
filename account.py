@@ -1,7 +1,7 @@
 from bank.db import get_connection, DB_FILE
 from bank.auth import verify_otp
 
-class BankAccount:
+class BankAccount: 
     def __init__(self, user_data):
         self.id           = user_data[0]
         self.name         = user_data[1]
