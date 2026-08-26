@@ -7,7 +7,7 @@ def get_connection():
 
 def init_db():
     import os
-    os.makedirs("database", exist_ok=True)
+    os.makedirs("database", exist_ok=True) 
     conn = get_connection()
     c = conn.cursor()
     c.execute('''
