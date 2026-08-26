@@ -5,7 +5,7 @@ from bank.account import BankAccount
 def main():
     init_db()
     print("\n" + "=" * 40)
-    print("      WELCOME TO UNIVERSAL BANK")
+    print("      WELCOME TO UNIVERSAL BANK") 
     print("=" * 40)
     user = login()
     if user:
