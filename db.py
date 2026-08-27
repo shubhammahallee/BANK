@@ -1,6 +1,6 @@
 import sqlite3
  
-DB_FILE = "database/universalbank.db"
+DB_FILE = "database/universalbank.db" 
 
 def get_connection():
     return sqlite3.connect(DB_FILE)
